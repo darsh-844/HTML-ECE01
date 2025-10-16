@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="./response.html" target="_blank" name="biodata" method="get">
+      <fieldset>
+        <legend align="center">Biodata</legend>
+        <label for="name">Name:</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Enter Your Name"
+          required
+        />
+        <br /><br />
+        <label for="age">Age:</label>
+        <input
+          type="date"
+          id="age"
+          name="age"
+          placeholder="Enter Your Age"
+          required
+        />
+        <br /><br />
+        <label for="jaati">Jaati:</label>
+        <input
+          type="text"
+          name="jaati"
+          id="jaati"
+          placeholder="Konsi jaat ke ho bhai"
+          optional
+        />
+        <br /><br />
+        <label for="attempt">Attempt:</label>
+        <input
+          type="number"
+          name="attempt"
+          id="attempt"
+          min="1"
+          max="10"
+          required
+        />
+        <br /><br />
+        <label for="email">Your Email:</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Enter your email"
+          required
+        />
+        <br /><br />
+        <label for="sex">Sex:</label>
+        <input
+          type="text"
+          name="sex"
+          id="sex"
+          placeholder="Nhi milega"
+          required
+        />
+        <br /><br />
+        <label for="phone">Phone:</label>
+        <input
+          type="tel"
+          id="phone"
+          name="phone"
+          placeholder="Enter your mobile no."
+          required
+        />
+        <br /><br />
+        <label for="add">Address:</label>
+        <textarea
+          name="text"
+          id="add"
+          rows="5"
+          cols="50"
+          placeholder="Enter Your Address"
+        ></textarea>
+        <br /><br />
+        <label for="gender">Gender:</label>
+        <input type="radio" name="gender" id="male" value="male" required />
+        <label for="male">Male</label>
+        <input
+          type="radio"
+          name="gender"
+          id="female"
+          value="female"
+          required
+          checked
+        />
+        <label for="female">Female</label>
+        <br /><br />
+        <label for="check">Vehicles That Own U</label>
+        <input type="checkbox" name="vehicle1" id="bike" value="Bike" />
+        <label for="bike">Bike</label>
+        <input type="checkbox" name="vehicle2" id="truck" value="Truck" />
+        <label for="truck">Truck</label>
+        <input type="checkbox" name="vehicle3" id="redi" value="Redi" />
+        <label for="redi">Redi</label>
+        <input type="checkbox" name="vehicle4" id="car" value="Car" />
+        <label for="car">Car</label>
+        <br /><br />
+        <label for="pass">Password:</label>
+        <input
+          type="password"
+          id="pass"
+          name="pass"
+          placeholder="Enter Your Password"
+          required
+        />
+        <br /><br />
+        <label for="select">Select your Progaramming Launguages</label>
+        <select name="select" id="select">
+          <option>Select Any Option</option>
+          <optgroup label="Progaramming Launguages">
+            <option value="C">C</option>
+            <option value="C++">C++</option>
+            <option value="Java">Java</option>
+          </optgroup>
+          <optgroup label="Frontend Technologies">
+            <option value="HTML">HTML</option>
+            <option value="CSS">CSS</option>
+            <option value="Java Script">Java Script</option>
+          </optgroup>
+        </select>
+        <br /><br />
+        <label for="file">File Upload</label>
+        <input type="file" name="file" id="file" required />
+        <br /><br />
+        <label for="app">Appointment</label>
+        <input type="time" name="Appoint" id="Appoint" required />
+        <br /><br />
+        <input type="submit" value="Login">
+        <input type="reset" value="Fuck OFF">
+      </fieldset>
+    </form>
+  </body>
+</html>
